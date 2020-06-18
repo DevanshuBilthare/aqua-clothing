@@ -1,6 +1,7 @@
 import React from 'react'
 import FormInput from '../FormInput/form-input.component'
 import ButtonInput from '../Buttoninput/button-input.component'
+import { signInWithGoogle } from '../../firebase/firebase.utils'
 
 import './sign-in.styles.scss'
 
@@ -34,25 +35,29 @@ class SignIn extends React.Component {
 
     render() {
         return (
-            <div className = 'signin'>
+            <div className='signin'>
                 <h1 className='title'>I already have an account</h1>
                 <h3 style={{ color: 'grey' }}>Sign in with your email and password </h3>
                 <form onSubmit={this.handleSubmit}>
-                    <FormInput 
-                    type="email" 
-                    name="email" 
-                    value={this.state.email} 
-                    label="email"
-                    onChange={this.handleChange} />
-                    <FormInput 
-                    type="password" 
-                    name="password" 
-                    value={this.state.password} 
-                    label='password'
-                    onChange={this.handleChange} />
-                    <ButtonInput
-                    type='submit' 
-                    value="Submit Form" >Sign in</ButtonInput>
+                    <FormInput
+                        type="email"
+                        name="email"
+                        value={this.state.email}
+                        label="Email"
+                        onChange={this.handleChange} />
+                    <FormInput
+                        type="password"
+                        name="password"
+                        value={this.state.password}
+                        label='Password'
+                        onChange={this.handleChange} />
+                    <div className = 'buttons'>
+                        <ButtonInput type='submit'>Sign in</ButtonInput>
+                        <ButtonInput onClick={signInWithGoogle} isGoogleSignIn>
+                            Sign in with google
+                        </ButtonInput>   
+                    </div>
+                    
                 </form>
             </div>
         )
