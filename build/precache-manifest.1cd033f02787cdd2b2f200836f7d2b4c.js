@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcd6de00acd86193583f8c9dc6082101",
+    "revision": "71a5ef41ee88f3bf0ebeee893a4dc967",
     "url": "/aqua-clothing/index.html"
   },
   {

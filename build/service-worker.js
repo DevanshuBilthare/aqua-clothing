@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aqua-clothing/precache-manifest.f360e643d157924a7ee466b00e59f80a.js"
+  "/aqua-clothing/precache-manifest.1cd033f02787cdd2b2f200836f7d2b4c.js"
 );
 
 self.addEventListener('message', (event) => {
