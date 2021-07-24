@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/aqua-clothing/static/css/main.0f5bc524.chunk.css",
+    "main.js": "/aqua-clothing/static/js/main.17323577.chunk.js",
+    "main.js.map": "/aqua-clothing/static/js/main.17323577.chunk.js.map",
+    "runtime-main.js": "/aqua-clothing/static/js/runtime-main.f7f74809.js",
+    "runtime-main.js.map": "/aqua-clothing/static/js/runtime-main.f7f74809.js.map",
+    "static/js/2.c1442c55.chunk.js": "/aqua-clothing/static/js/2.c1442c55.chunk.js",
+    "static/js/2.c1442c55.chunk.js.map": "/aqua-clothing/static/js/2.c1442c55.chunk.js.map",
+    "index.html": "/aqua-clothing/index.html",
+    "precache-manifest.f360e643d157924a7ee466b00e59f80a.js": "/aqua-clothing/precache-manifest.f360e643d157924a7ee466b00e59f80a.js",
+    "service-worker.js": "/aqua-clothing/service-worker.js",
+    "static/css/main.0f5bc524.chunk.css.map": "/aqua-clothing/static/css/main.0f5bc524.chunk.css.map",
+    "static/js/2.c1442c55.chunk.js.LICENSE.txt": "/aqua-clothing/static/js/2.c1442c55.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/aqua-clothing/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/aqua-clothing/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7f74809.js",
+    "static/js/2.c1442c55.chunk.js",
+    "static/css/main.0f5bc524.chunk.css",
+    "static/js/main.17323577.chunk.js"
+  ]
+}
